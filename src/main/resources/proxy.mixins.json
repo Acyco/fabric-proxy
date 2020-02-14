@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.extclp.proxy.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinClientConnection",
+    "MixinHandshakeC2SPacket",
+    "MixinServerHandshakeNetworkHandler",
+    "MixinServerLoginNetworkHandler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
